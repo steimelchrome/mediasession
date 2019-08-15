@@ -1204,12 +1204,12 @@ dictionary MediaSessionActionDetails {
 };
 
 dictionary MediaSessionSeekActionDetails : MediaSessionActionDetails {
-  double? seekOffset;
+  double seekOffset;
 };
 
 dictionary MediaSessionSeekToActionDetails : MediaSessionActionDetails {
   required double seekTime;
-  bool? fastSeek;
+  bool fastSeek;
 };
 </pre>
 
